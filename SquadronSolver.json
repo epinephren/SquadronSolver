@@ -1,0 +1,15 @@
+﻿{
+  "Author": "epinephren",
+  "Name": "SquadronSolver",
+  "InternalName": "SquadronSolver",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Analyzes your Squadron roster and mission requirements to recommend the best party composition.",
+"ApplicableVersion": "any",
+  "Tags": [
+   "squadron",
+    "missions",
+    "planner",
+    "grand-company"
+  ],
+  "Punchline": "Optimize your Squadron mission success."
+}
