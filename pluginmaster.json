@@ -6,16 +6,16 @@
     "Description": "Analyzes your Squadron roster and mission requirements to recommend the best party composition.",
     "InternalName": "SquadronSolver",
     "AssemblyVersion": "1.0.0.0",
-
     "RepoUrl": "https://github.com/epinephren/SquadronSolver",
-
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "TestingDalamudApiLevel": 15,
     "Tags": [
       "squadron",
       "grand-company",
       "missions",
       "planner"
     ],
-
     "IconUrl": "https://raw.githubusercontent.com/epinephren/SquadronSolver/main/images/icon.png",
     "DownloadLinkInstall": "https://github.com/epinephren/SquadronSolver/releases/download/v1.0.0.0/v1.0.0.0.zip",
     "DownloadLinkTesting": "https://github.com/epinephren/SquadronSolver/releases/download/v1.0.0.0/v1.0.0.0.zip",
