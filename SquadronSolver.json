@@ -2,7 +2,7 @@
   "Author": "epinephren",
   "Name": "SquadronSolver",
   "InternalName": "SquadronSolver",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.0.1",
   "Description": "Analyzes your Squadron roster and mission requirements to recommend the best party composition.",
 "ApplicableVersion": "any",
   "Tags": [

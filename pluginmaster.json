@@ -17,9 +17,9 @@
       "planner"
     ],
     "IconUrl": "https://raw.githubusercontent.com/epinephren/SquadronSolver/main/images/icon.png",
-    "DownloadLinkInstall": "https://github.com/epinephren/SquadronSolver/releases/download/v1.0.0.0/v1.0.0.0.zip",
-    "DownloadLinkTesting": "https://github.com/epinephren/SquadronSolver/releases/download/v1.0.0.0/v1.0.0.0.zip",
-    "DownloadLinkUpdate": "https://github.com/epinephren/SquadronSolver/releases/download/v1.0.0.0/v1.0.0.0.zip",
+    "DownloadLinkInstall": "https://github.com/epinephren/SquadronSolver/releases/download/v1.0.0.1/v1.0.0.1.zip",
+    "DownloadLinkTesting": "https://github.com/epinephren/SquadronSolver/releases/download/v1.0.0.1/v1.0.0.1.zip",
+    "DownloadLinkUpdate": "https://github.com/epinephren/SquadronSolver/releases/download/v1.0.0.1/v1.0.0.1.zip",
     "IsTestingExclusive": false
   }
 ]

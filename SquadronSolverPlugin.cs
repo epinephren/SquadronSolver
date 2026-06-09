@@ -25,6 +25,7 @@ public sealed class SquadronSolverPlugin : IDalamudPlugin
     private readonly GcArmyMemberListReader memberListReader;
     private readonly MainWindow mainWindow;
     private readonly ConfigWindow configWindow;
+    private bool expeditionWasOpen;
 
     public SquadronSolverPlugin()
     {
@@ -84,11 +85,16 @@ public sealed class SquadronSolverPlugin : IDalamudPlugin
             ? ImGuiWindowFlags.None
             : ImGuiWindowFlags.NoMove;
 
+        var expeditionOpen = this.expeditionReader.TryRead(out _);
+
         if (this.configuration.AutoOpenWithSquadronMissions
-            && this.expeditionReader.TryRead(out _))
+            && expeditionOpen
+            && !this.expeditionWasOpen)
         {
             this.mainWindow.IsOpen = true;
         }
+
+        this.expeditionWasOpen = expeditionOpen;
 
         this.windowSystem.Draw();
     }
