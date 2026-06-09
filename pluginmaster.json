@@ -5,7 +5,7 @@
     "Punchline": "Find the best Squadron party for a mission.",
     "Description": "Analyzes your Squadron roster and mission requirements to recommend the best party composition.",
     "InternalName": "SquadronSolver",
-    "AssemblyVersion": "1.0.0.0",
+    "AssemblyVersion": "1.0.0.1",
     "RepoUrl": "https://github.com/epinephren/SquadronSolver",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
